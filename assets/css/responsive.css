@@ -21,3 +21,55 @@
     }
   }
 }
+@media (max-width: 1199px) {
+.section-8-icon::before {
+   content: "";
+   position: absolute;
+   top: 3rem;
+   bottom: -0.4rem;
+   left: 5rem;
+   right:5rem;
+   border-radius: 50%;
+   background-color: rgba(225, 225, 225, 0.2);
+  animation: ring 0.7s infinite;  
+  }
+}
+@media (max-width: 991px) {
+.section-8-icon::before {
+   content: "";
+   position: absolute;
+   top: 3rem;
+   bottom: -0.4rem;
+   left: 18rem;
+   right:18rem;
+   border-radius: 50%;
+   background-color: rgba(225, 225, 225, 0.2);
+  animation: ring 0.7s infinite;  
+  }
+}
+@media (max-width: 767px) {
+.section-8-icon::before {
+   content: "";
+   position: absolute;
+   top: 3rem;
+   bottom: -0.4rem;
+   left: 12rem;
+   right:12rem;
+   border-radius: 50%;
+   background-color: rgba(225, 225, 225, 0.2);
+  animation: ring 0.7s infinite;  
+  }
+}
+@media (max-width: 502px) {
+.section-8-icon::before {
+   content: "";
+   position: absolute;
+   top: 3rem;
+   bottom: -0.4rem;
+   left: 11rem;
+   right:11rem;
+   border-radius: 50%;
+   background-color: rgba(225, 225, 225, 0.2);
+  animation: ring 0.7s infinite;  
+  }
+}
