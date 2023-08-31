@@ -944,7 +944,113 @@ p {
  }
  }
   /* section-9 */
+  .section-9{
+    padding-bottom: 5rem;
+    & h5{
+      color: var(--third-color);
+    }
+    & h3{
+      font-size: 3rem;
+      font-weight: 700;
+      padding-bottom: 1.5rem;
+    }
+  }
+  .carousel-indicators{
+    margin-bottom: -2.6rem;
+    & button{
+      background-color:var(--third-color) !important;
+      height: 0.6rem !important;
+      width: 0.6rem !important;
+    }
+  }
 .testimonial{
-  background-color: var(--primary-color);
-  
+  background-color: var(--first-neutral-color);
+  border-radius: 6px;
+  padding: 3rem;
+  margin-top: 1rem;
+  transition: all 0.3s linear;
+  & img{
+    padding: 0.7rem;
+  }
 }
+.testimonial:hover{
+  background-color: var(--white-color);
+  box-shadow: 2px 2px 11px var(--black-color);
+  & img{
+  }
+}
+.carousel-inner {
+  height: 29rem;
+  padding-right:1rem ;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+ /* section-10 */
+ .section-10-img{
+  background:url(../img/section-10-img/section-10-img1.png) ;
+  background-position: center;
+  background-size:cover;
+  padding: 2rem;
+  & h2{
+    color: var(--white-color);
+
+  }
+  & p{
+    
+      color: var(--white-color);
+      font-size: 1rem;
+  }
+  .row{
+    & input,
+    & select,
+    & button{
+  height: 3.4rem;
+  width: 45%;
+  margin: 8px;
+  border-radius: 9px;
+  border: none;
+  box-shadow: none;
+  outline: none;
+    }
+    & button{
+      color: var(--white-color);
+      background-color: var(--third-color);
+      transition: all 0.2s linear;
+      &:hover{
+        background-color: var(--primary-color);
+      }
+    }
+  }
+ }
+    /* section-11 */
+    .section-11-main {
+      .section-11-main-img{
+       & img{
+        object-fit: cover;
+       }
+      }
+      .section-11-main-text{
+        
+        & h2{
+          color: var(--black-color);
+          margin-bottom: 1.8rem;
+        }
+        & p{
+          color: var(--primary-color);
+          font-weight: 400;
+          font-size: 1.1rem;
+        }
+      }
+    }
+    /* section-12 */
+    .section-12-main {
+      height: 7rem;
+     color: var(--white-color);
+     background-color: var(--third-color);
+.carousel-item{
+  & img{
+    height: 2rem; 
+  }
+ 
+}
+    }

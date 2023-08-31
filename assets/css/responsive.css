@@ -73,3 +73,99 @@
   animation: ring 0.7s infinite;  
   }
 }
+@media (max-width: 991px) {
+.carousel-inner {
+    height: 39rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+}
+@media (max-width: 767px) {
+.carousel-inner {
+    height: 25rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+}
+@media (max-width: 511px) {
+.carousel-inner {
+    height: 26.4rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+}
+@media (max-width: 429px) {
+.carousel-inner {
+    height: 28rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+}
+@media (max-width: 363px) {
+.carousel-inner {
+    height: 29.3rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+}
+@media (max-width: 334px) {
+.carousel-inner {
+    height: 31rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+}
+@media (max-width: 315px) {
+.carousel-inner {
+    height: 32.8rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+}
+@media (max-width: 308px) {
+.carousel-inner {
+    height: 34rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+}
+@media (max-width: 276px) {
+.carousel-inner {
+    height: 35.8rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+}
+@media (max-width: 266px) {
+.carousel-inner {
+    height: 37.2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+}
+@media (max-width: 258px) {
+.carousel-inner {
+    height: 38.8rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+}
+@media (max-width: 248px) {
+.carousel-inner {
+    height: 40.2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+}
