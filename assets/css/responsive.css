@@ -121,7 +121,7 @@
       margin: 0;
       padding: 0;
     }
-  }
+  }}
 @media (max-width: 875px) {
   .carousel-inar-text {
     position: absolute;

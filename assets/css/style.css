@@ -59,7 +59,6 @@ body {
   font-size: 100%;
   font-weight: 400;
   overflow-x: hidden;
-  margin-right: ;
 }
 /* ====custom scrollbar==== */
 ::-webkit-scrollbar {
@@ -498,7 +497,6 @@ p {
 }
 .tow-divs {
   display: flex;
-  justify-content: ;
   align-items: center;
   gap: px;
   margin-right: -2.8rem;
@@ -644,8 +642,6 @@ p {
       background-color: var(--second-neutral-color);
       height: 22rem;
       transition: all 0.4s linear;
-      & img {
-      }
       .card-body {
         display: block;
         height: 10rem;
@@ -709,8 +705,6 @@ p {
     transform: scale();
   }
   .display-flex {
-    & h6 {
-    }
     & img {
       transform: scale(1.2);
     }
@@ -759,8 +753,6 @@ p {
     }
   }
 }
-.section-4 {
-}
 /* section-5 */
 .section-5 {
   margin-top: 4rem;
@@ -776,8 +768,6 @@ p {
     font-size: 2.4rem;
     color: var(--text-first);
   }
-}
-.section-5-main-div {
 }
 .card-2 {
   background-color: var(--first-neutral-color);
@@ -804,8 +794,6 @@ p {
   }
   & p {
     margin-top: 1rem;
-  }
-  & h6 {
   }
 }
 .card-2:hover {
@@ -920,8 +908,6 @@ p {
         box-shadow: unset;
       }
     }
-    & p {
-    }
   }
   .btn-submit1 {
     height: 3.3rem;
@@ -1035,8 +1021,6 @@ p {
 .testimonial:hover {
   background-color: var(--white-color);
   box-shadow: 2px 2px 11px var(--black-color);
-  & img {
-  }
 }
 .carousel-inner {
   height: 29rem;
@@ -1185,8 +1169,6 @@ p {
   background-color: var(--primary-color);
   height: 22rem;
   & div {
-    & h2 {
-    }
     & h6 {
       color: var(--white-color);
     }
