@@ -421,6 +421,7 @@ p {
     background-color: var(--third-color);
     border-radius: unset;
     color: var(--white-color) !important;
+    transition: all 0.4s linear;
     & p,
     a {
       color: var(--white-color);
